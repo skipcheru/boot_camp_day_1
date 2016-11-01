@@ -39,6 +39,7 @@ class PartTimeStudent(Student):
     def days_for_class(self):
         return self.class_days
 
+"""Multiple Inheritance here"""
 
 class Employee(Person):
     def __init__(self, name, phone, email, address, employee_number):
